@@ -18,11 +18,11 @@ const ProductDetails = () => {
           </p>
           <h2 className="text-4xl">{title.slice(0, 30)}</h2>
           <span className="font-semibold">
-            Price: <span className="text-2xl">{price}</span>
+            Precio: <span className="text-2xl">{price}</span>
           </span>
-          <span className="font-semibold">Brand: {brand}</span>
+          <span className="font-semibold">Marca: {brand}</span>
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl">Key features</h1>
+            <h1 className="text-2xl">Descripcion de caracteristicas</h1>
             <p className="text-gray-800">{description.slice(0, 35)}</p>
             <p className="text-gray-800">{description.slice(36, 70)}</p>
             <p className="text-gray-800">{description.slice(71, 100)}</p>
@@ -31,7 +31,7 @@ const ProductDetails = () => {
             <p className="text-gray-800">{description.slice(170, 201)}</p>
           </div>
           <h3 className="flex justify-between text-gray-700 text-lg">
-            <span>Category: {category}</span>
+            <span>Categoria: {category}</span>
             <span>
               Rating:{" "}
               <span className="text-rose-500 font-bold">
@@ -44,7 +44,7 @@ const ProductDetails = () => {
             onClick={() => console.log("ksk")}
             className="bg-sky-500 text-sky-50 px-2 py-1 mt-4"
           >
-            add to cart
+            Añadir al carrito
           </button>
         </div>
       </div>
@@ -52,7 +52,7 @@ const ProductDetails = () => {
         to="/product"
         className="text-xl py-1 text-center hover:text-cyan-500 duration-300 select-none"
       >
-        &larr; Go to Product
+        &larr; Volver a Productos
       </Link>
     </section>
   );

@@ -10,8 +10,7 @@ const Home = () => {
   return (
     <div className="home">
       <Slider />
-      <FeatureProducts />
-      <Consultation />         
+      <FeatureProducts />      
       <Whyme />
     </div>
   );
