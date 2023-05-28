@@ -42,7 +42,7 @@ const Products = () => {
   if (isLoading)
     return (
       <p className="h-screen flex flex-col justify-center items-center text-2xl">
-        Loading...
+        Cargando...
       </p>
     );
   if (err)
@@ -57,7 +57,7 @@ const Products = () => {
 
   return (
     <div className="container mx-auto pb-20">
-      <h2 className="text-center text-3xl py-10">All Products</h2>
+      <h2 className="text-center text-3xl py-10">Todos los productos</h2>
       <div className="flex justify-between gap-10">
         <div className="w-[20%] bg-gray-50 flex flex-col gap-3 px-3 pt-2">
           <h3
@@ -67,7 +67,7 @@ const Products = () => {
               setCatPath("all categories");
             }}
           >
-            <span className="font-semibold">All Categories</span>
+            <span className="font-semibold">Todas las categorias</span>
             <span>{`(${products.length})`}</span>
           </h3>
           {categories.map((cat, i) => (
