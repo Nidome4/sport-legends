@@ -3,6 +3,7 @@ import SingleProduct from "../components/SingleProduct";
 import { Link } from "react-router-dom";
 
 const Products = () => {
+  const [categories1, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -21,6 +22,14 @@ const Products = () => {
     "graphics card",
   ];
 
+  const changeCategory =  async (cat) => {
+    const res = await fetch("https://itproducts.onrender.com/products/"+ cat.id);
+    if (!res.ok) throw new Error("Oops! An error has occured");
+    const json = await res.json();
+    setIsLoading(false);
+    setFilterProducts(json);
+  }
+
   useEffect(() => {
     const getData = async () => {
       try {
@@ -37,6 +46,20 @@ const Products = () => {
       }
     };
     getData();
+    const getCategories = async () => {
+      try {
+        setIsLoading(true);
+        const res = await fetch("https://itproducts.onrender.com/products");
+        if (!res.ok) throw new Error("Oops! An error has occured");
+        const json = await res.json();
+        setIsLoading(false);
+        setCategories(json);
+      } catch (err) {
+        setIsLoading(false);
+        setErr(err.message);
+      }
+    }
+    getCategories();
   }, []);
 
   if (isLoading)
