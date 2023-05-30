@@ -1,0 +1,49 @@
+{
+    "slider": {
+      "Diseños Originales": "Original Designs",
+      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Stand out with Original Designs: Unique, Creative, and Unmatched.",
+      "Comprar Ahora": "Buy Now",
+      "Variedad Flexible para cualquier ocasion": "Flexible Variety for any Occasion",
+      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Find the Flexible Variety for Any Occasion: Adapt your style to every moment with our wide selection of options.",
+      "Comodidad y adaptiblidad para los pies": "Comfort and Adaptability for Your Feet",
+      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Discover Comfort and Adaptability for Your Feet: Find the perfect balance between comfort and style with our footwear line designed to meet your needs.",
+      "Frescura y filtracion de aire": "Freshness and Air Filtration",
+      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Enjoy Freshness and Air Filtration: Keep your spaces cool and purified with our state-of-the-art technology that ensures a healthy and revitalizing environment.",
+      "Comodidad en cualquier momento": "Comfort at Any Time",
+      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Experience Comfort at Any Time: Our range of products provides you with uncompromising comfort, so you can feel good at all times and in any situation."
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products"
+    },
+      "languages": {
+        "spanish": "Spanish",
+        "english": "English",
+        "german": "German"
+    },
+    "whyme": {
+      "Porque escogernos a nosotros?": "Why Choose Us?",
+      "Envio internacional":"International delivery",
+      "Ofrecemos envíos a todo el mundo para que nuestros productos sean accesibles a clientes de todo el mundo.":"We offer worldwide shipping to make our products accessible to customers around the world.",
+      "La mejor calidad": "The Best Quality",
+      "Creemos en proporcionar a nuestros clientes solo productos de la mejor calidad.": "We believe in providing our customers with only the best quality products.",
+      "Las mejores ofertas": "The Best Deals",
+      "Nos enorgullecemos de ofrecer las mejores ofertas y descuentos a nuestros clientes.": "We pride ourselves on offering the best deals and discounts to our customers.",
+      "Pagos seguros": "Secure Payments",
+      "Ofrecemos una gama de opciones de pago seguro para garantizar que sus transacciones sean seguras.": "We offer a range of secure payment options to ensure your transactions are safe."
+    },
+    "about": {
+        "Sobre Nosotros": "About Us",
+        "Who we are?": "Who we are?",
+        "Description": "We are a team of passionate individuals committed to providing high-quality products and exceptional customer service. Our mission is to make clothing accessible for everyone, no matter where they are in the world. Shop with us and experience the difference of working with a dedicated, customer-focused team."
+    },
+    "ourTeam": {
+        "Nuestro Equipo": "Our Team",
+        "exp": "We are composed of experienced individuals with a passion for technology and a commitment to customer satisfaction.",
+        "CEO 1": "CEO 1",
+        "CEO 2": "CEO 2",
+        "CEO 3": "CEO 3"
+    }
+  }
+  

@@ -3,43 +3,34 @@ import SingleProduct from "../components/SingleProduct";
 import { Link } from "react-router-dom";
 
 const Products = () => {
-  const [categories1, setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [err, setErr] = useState(null);
 
-  const [catPath, setCatPath] = useState("all categories");
+  const [catPath, setCatPath] = useState("all categories");  
 
-  const para = useRef(null);
-
-  const categories = [
-    "smartphone",
-    "laptop",
-    "smartwatch",
-    "earbuds",
-    "Keyboard",
-    "graphics card",
-  ];
+  const para = useRef(null);  
 
   const changeCategory =  async (cat) => {
-    const res = await fetch("https://itproducts.onrender.com/products/"+ cat.id);
+    const res = await fetch("http://localhost:8080/product/"+ cat.id);
     if (!res.ok) throw new Error("Oops! An error has occured");
     const json = await res.json();
     setIsLoading(false);
-    setFilterProducts(json);
+    setFilterProducts(json.items);
   }
 
   useEffect(() => {
     const getData = async () => {
       try {
         setIsLoading(true);
-        const res = await fetch("https://itproducts.onrender.com/products");
+        const res = await fetch("http://localhost:8080/product/");
         if (!res.ok) throw new Error("Oops! An error has occured");
         const json = await res.json();
         setIsLoading(false);
-        setProducts(json);
-        setFilterProducts(json);
+        setProducts(json.items);
+        setFilterProducts(json.items);
       } catch (err) {
         setIsLoading(false);
         setErr(err.message);
@@ -49,11 +40,12 @@ const Products = () => {
     const getCategories = async () => {
       try {
         setIsLoading(true);
-        const res = await fetch("https://itproducts.onrender.com/products");
+        const res = await fetch("http://localhost:8080/category/");
         if (!res.ok) throw new Error("Oops! An error has occured");
         const json = await res.json();
+        console.log(json);
         setIsLoading(false);
-        setCategories(json);
+        setCategories(json.items);
       } catch (err) {
         setIsLoading(false);
         setErr(err.message);
@@ -93,20 +85,14 @@ const Products = () => {
             <span className="font-semibold">Todas las categorias</span>
             <span>{`(${products.length})`}</span>
           </h3>
-          {categories.map((cat, i) => (
+          {categories.map((cat) => (
             <p
               ref={para}
               className="select-none cursor-pointer capitalize font-semibold"
-              key={i}
-              onClick={() => {
-                const filters = products.filter(
-                  (product) => product.category === cat
-                );
-                setFilterProducts(filters);
-                setCatPath(categories[i]);
-              }}
+              key={cat.id}
+              onClick={() => changeCategory(cat)}
             >
-              <span>{cat}</span>
+              <span>{cat.name}</span>
             </p>
           ))}
         </div>

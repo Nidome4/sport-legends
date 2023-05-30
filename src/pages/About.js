@@ -1,21 +1,24 @@
-import Whyme from "../components/Whyme";
+import { I18nextProvider, useTranslation } from 'react-i18next';
+import i18n from '../i18n';
 import Herotext from "../components/Herotext";
 import OurTeam from "../components/OurTeam";
+import Whyme from "../components/Whyme";
+
 const About = () => {
+  const { t } = useTranslation();
+
   return (
-    <>
-      <Herotext textt="Sobre Nosotros" />
+    <I18nextProvider i18n={i18n}>
+      <Herotext textt={t('about.Sobre Nosotros')} />
       <section className=" bg-gray-50 py-20 px-20 ">
         <div className="container mx-auto grid grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="flex flex-col gap-3">
               <h1 className="text-6xl font-semibold text-gray-700">
-                Quienes somos?
+                {t('about.Who we are?')}
               </h1>
               <p className="text-lg text-gray-700">
-              Somos un equipo de personas apasionadas comprometidas a proporcionar productos de alta calidad y un servicio al cliente excepcional. 
-              Nuestra misión es hacer que la ropa sea accesible para todos, sin importar en qué parte del mundo se encuentren. 
-              Compre con nosotros y experimente la diferencia de trabajar con un equipo dedicado y centrado en el cliente.
+                {t('about.Description')}
               </p>
             </div>
           </div>
@@ -30,8 +33,9 @@ const About = () => {
       </section>
       <OurTeam />
       <Whyme />
-    </>
+    </I18nextProvider>
   );
 };
 
 export default About;
+

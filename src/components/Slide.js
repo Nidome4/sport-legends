@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
 const Slide = ({ image }) => {
+  // Verifica si image es undefined o null antes de acceder a sus propiedades
+  if (!image || !image.src) {
+    return null; // o muestra algún mensaje de error
+  }
+
   return (
     <div
       className="slide h-full flex justify-center items-center"

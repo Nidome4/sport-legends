@@ -5,11 +5,10 @@ const Fetchdata = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch("https://itproducts.onrender.com/products");
+      const res = await fetch("http://localhost:8080/product/");
       if (!res.ok) throw new Error("Oops! An error has occured");
       const json = await res.json();
-
-      setProducts(json);
+      setProducts(json.items);
     };
     getData();
   }, []);

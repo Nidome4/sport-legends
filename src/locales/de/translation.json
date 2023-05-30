@@ -1,0 +1,49 @@
+{
+    "slider": {
+      "Diseños Originales": "Originale Designs",
+      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Zeigen Sie sich mit originellen Designs: Einzigartig, kreativ und unvergleichlich.",
+      "Comprar Ahora": "Jetzt kaufen",
+      "Variedad Flexible para cualquier ocasion": "Flexible Vielfalt für jeden Anlass",
+      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Finden Sie die flexible Vielfalt für jeden Anlass: Passen Sie Ihren Stil mit unserer großen Auswahl an Optionen an.",
+      "Comodidad y adaptiblidad para los pies": "Komfort und Anpassungsfähigkeit für Ihre Füße",
+      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Entdecken Sie Komfort und Anpassungsfähigkeit für Ihre Füße: Finden Sie die perfekte Balance zwischen Komfort und Stil mit unserer Schuhkollektion, die Ihren Bedürfnissen gerecht wird.",
+      "Frescura y filtracion de aire": "Frische und Luftfiltration",
+      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Genießen Sie Frische und Luftfiltration: Halten Sie Ihre Räume mit unserer modernen Technologie frisch und gereinigt, die für eine gesunde und revitalisierende Umgebung sorgt.",
+      "Comodidad en cualquier momento": "Komfort zu jeder Zeit",
+      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Erleben Sie Komfort zu jeder Zeit: Unsere Produktpalette bietet Ihnen uneingeschränkten Komfort, damit Sie sich jederzeit und in jeder Situation wohlfühlen können."
+    },
+    "navbar": {
+        "home": "Start",
+        "about": "Über uns",
+        "products": "Produkte"
+    },
+      "languages": {
+        "spanish": "Spanisch",
+        "english": "Englisch",
+        "german": "Deutsch"
+    },
+    "whyme": {
+      "Porque escogernos a nosotros?": "Warum uns wählen?",
+      "Envio internacional":"Internationale Lieferung",
+      "Ofrecemos envíos a todo el mundo para que nuestros productos sean accesibles a clientes de todo el mundo.":"Wir bieten weltweiten Versand an, um unsere Produkte Kunden auf der ganzen Welt zugänglich zu machen.",
+      "La mejor calidad": "Die beste Qualität",
+      "Creemos en proporcionar a nuestros clientes solo productos de la mejor calidad.": "Wir glauben daran, unseren Kunden nur Produkte von bester Qualität anzubieten.",
+      "Las mejores ofertas": "Die besten Angebote",
+      "Nos enorgullecemos de ofrecer las mejores ofertas y descuentos a nuestros clientes.": "Wir sind stolz darauf, unseren Kunden die besten Angebote und Rabatte anzubieten.",
+      "Pagos seguros": "Sichere Zahlungen",
+      "Ofrecemos una gama de opciones de pago seguro para garantizar que sus transacciones sean seguras.": "Wir bieten eine Auswahl an sicheren Zahlungsoptionen, um sicherzustellen, dass Ihre Transaktionen sicher sind."
+    },
+    "about": {
+        "Sobre Nosotros": "Über uns",
+        "Who we are?": "Wer wir sind?",
+        "Description": "Wir sind ein Team von leidenschaftlichen Menschen, die sich verpflichtet haben, hochwertige Produkte und außergewöhnlichen Kundenservice anzubieten. Unsere Mission ist es, Kleidung für alle zugänglich zu machen, egal wo sie sich auf der Welt befinden. Kaufen Sie bei uns ein und erleben Sie den Unterschied, mit einem engagierten und kundenorientierten Team zusammenzuarbeiten."
+    },
+    "ourTeam": {
+        "Nuestro Equipo": "Unser Team",
+        "exp": "Wir bestehen aus erfahrenen Menschen mit einer Leidenschaft für Technologie und einem Engagement für die Kundenzufriedenheit.",
+        "CEO 1": "CEO 1",
+        "CEO 2": "CEO 2",
+        "CEO 3": "CEO 3"
+    }
+  }
+  

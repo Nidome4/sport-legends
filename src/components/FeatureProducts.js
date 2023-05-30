@@ -11,7 +11,7 @@ const FeatureProducts = () => {
       <div className="grid grid-cols-3 gap-10 w-[80%] mx-auto pb-20">
         {products &&
           products
-            .filter((product) => product.id % 5 === 0)
+            .filter((product) => product.id % 2 === 0)
             .map((product) => {
               return <SingleProduct key={product.id} product={product} />;
             })}

@@ -1,0 +1,49 @@
+{
+    "slider": {
+      "Diseños Originales": "Diseños Originales",
+      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.",
+      "Comprar Ahora": "Comprar Ahora",
+      "Variedad Flexible para cualquier ocasion": "Variedad Flexible para cualquier ocasión",
+      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.",
+      "Comodidad y adaptiblidad para los pies": "Comodidad y adaptibilidad para los pies",
+      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.",
+      "Frescura y filtracion de aire": "Frescura y filtración de aire",
+      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.",
+      "Comodidad en cualquier momento": "Comodidad en cualquier momento",
+      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación."
+    },
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "products": "Productos"
+    },
+      "languages": {
+        "spanish": "Español",
+        "english": "Ingles",
+        "german": "Aleman"
+    },
+    "whyme": {
+      "Porque escogernos a nosotros?": "¿Por qué elegirnos?",
+      "Envio internacional":"Envio internacional",
+      "Ofrecemos envíos a todo el mundo para que nuestros productos sean accesibles a clientes de todo el mundo.":"Ofrecemos envíos a todo el mundo para que nuestros productos sean accesibles a clientes de todo el mundo.",
+      "La mejor calidad": "La mejor calidad",
+      "Creemos en proporcionar a nuestros clientes solo productos de la mejor calidad.": "Creemos en proporcionar a nuestros clientes solo productos de la mejor calidad.",
+      "Las mejores ofertas": "Las mejores ofertas",
+      "Nos enorgullecemos de ofrecer las mejores ofertas y descuentos a nuestros clientes.": "Nos enorgullecemos de ofrecer las mejores ofertas y descuentos a nuestros clientes.",
+      "Pagos seguros": "Pagos seguros",
+      "Ofrecemos una gama de opciones de pago seguro para garantizar que sus transacciones sean seguras.": "Ofrecemos una gama de opciones de pago seguro para garantizar que sus transacciones sean seguras."
+    },
+    "about": {
+        "Sobre Nosotros": "Sobre Nosotros",
+        "Who we are?": "Quienes somos?",
+        "Description": "Somos un equipo de personas apasionadas comprometidas a proporcionar productos de alta calidad y un servicio al cliente excepcional. Nuestra misión es hacer que la ropa sea accesible para todos, sin importar en qué parte del mundo se encuentren. Compre con nosotros y experimente la diferencia de trabajar con un equipo dedicado y centrado en el cliente."
+    },
+    "ourTeam": {
+        "Nuestro Equipo": "Nuestro Equipo",
+        "exp": "Estamos compuestos por personas experimentadas con pasión por la tecnología y compromiso con la satisfacción del cliente.",
+        "CEO 1": "CEO 1",
+        "CEO 2": "CEO 2",
+        "CEO 3": "CEO 3"
+    }
+  }
+  
