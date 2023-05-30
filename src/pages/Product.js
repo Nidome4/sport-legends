@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import SingleProduct from "../components/SingleProduct";
+import TextButton from "../components/TextButton";
 import { Link } from "react-router-dom";
+
 
 const Products = () => {
   const [categories1, setCategories] = useState([]);
@@ -115,6 +117,7 @@ const Products = () => {
             {<Link to="/">Home </Link>}/
             <span className="text-sky-400 px-1">{catPath}</span>
           </p>
+          <TextButton style={{button:"round-button",text:"right"}} val={{icon:"+", text:"Añadir producto"}}>+</TextButton>
           <div className="grid grid-cols-3 gap-10 ">
             {filterProducts &&
               filterProducts.map((product) => (
