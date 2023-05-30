@@ -2,7 +2,10 @@ import { useState, useEffect, useRef } from "react";
 import SingleProduct from "../components/SingleProduct";
 import TextButton from "../components/TextButton";
 import { Link } from "react-router-dom";
-
+import ReactModal from 'react-modal';
+import { AiOutlineClose } from 'react-icons/ai';
+import Form  from '../components/Form';
+import ApiComponent from "../components/ApiComponent";
 
 const Products = () => {
   const [categories, setCategories] = useState([]);
@@ -10,8 +13,32 @@ const Products = () => {
   const [filterProducts, setFilterProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [err, setErr] = useState(null);
-
+  const [payload, setPayload] = useState({});
   const [catPath, setCatPath] = useState("all categories");  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const successCreate = (response) => {
+    if(response){
+      getData();
+      window.alert("Created Product");      
+    }
+  }
+
+  const getPayload = (name,data) => {
+    setPayload({
+      name: name, 
+      data: data
+    })
+    closePopup();
+  }
+  
+  const openPopup = () => {
+    setIsOpen(true);
+  };
+
+  const closePopup = () => {
+    setIsOpen(false);
+  };
 
   const para = useRef(null);  
 
@@ -23,21 +50,22 @@ const Products = () => {
     setFilterProducts(json.items);
   }
 
-  useEffect(() => {
-    const getData = async () => {
-      try {
-        setIsLoading(true);
-        const res = await fetch("http://localhost:8080/product/");
-        if (!res.ok) throw new Error("Oops! An error has occured");
-        const json = await res.json();
-        setIsLoading(false);
-        setProducts(json.items);
-        setFilterProducts(json.items);
-      } catch (err) {
-        setIsLoading(false);
-        setErr(err.message);
-      }
-    };
+  const getData = async () => {
+    try {
+      setIsLoading(true);
+      const res = await fetch("https://itproducts.onrender.com/products");
+      if (!res.ok) throw new Error("Oops! An error has occured");
+      const json = await res.json();
+      setIsLoading(false);
+      setProducts(json);
+      setFilterProducts(json);
+    } catch (err) {
+      setIsLoading(false);
+      setErr(err.message);
+    }
+  };
+
+  useEffect(() => {    
     getData();
     const getCategories = async () => {
       try {
@@ -99,17 +127,21 @@ const Products = () => {
           ))}
         </div>
         <div>
-          <p className="text-gray-500 pb-4">
-            {<Link to="/">Home </Link>}/
-            <span className="text-sky-400 px-1">{catPath}</span>
+          <p className="text-sky-500 pb-4">
+            {<Link to="/">Home </Link>}
+            <span className="text-gray-400 px-1">/{catPath}</span>
           </p>
-          <TextButton style={{button:"round-button",text:"right"}} val={{icon:"+", text:"Añadir producto"}}>+</TextButton>
-          <div className="grid grid-cols-3 gap-10 ">
-            {filterProducts &&
-              filterProducts.map((product) => (
-                <SingleProduct key={product.id} product={product} />
-              ))}
-          </div>
+          <TextButton onClick={openPopup} style={{button:"round-button",text:"right"}} val={{icon:"+", text:"Añadir producto"}}/>
+          <ReactModal isOpen={isOpen} 
+            onRequestClose={closePopup}      
+          >            
+            <div className="close-button" onClick={closePopup}>
+              <AiOutlineClose />
+            </div>            
+            <h2>Título del Popup</h2>
+            <Form setPayload={getPayload}/>      
+          </ReactModal>
+          <ApiComponent url="http://localhost:8080/product/" method="POST" payload={payload} response={successCreate}/>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/TextButton.css';
 
-const TextButton = ({style,val}) => {
+const TextButton = ({onClick,style,val}) => {
   const [showText, setShowText] = useState(false);
   const [textAlign, setTextAlign] = useState({});
 
@@ -30,6 +30,7 @@ const TextButton = ({style,val}) => {
       <button className={style.button}
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
+        onClick={onClick}
       >
     {val.icon}
       </button>
