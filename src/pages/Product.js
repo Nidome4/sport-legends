@@ -1,10 +1,11 @@
 import { useState, useEffect, useRef } from "react";
+import { useTranslation } from 'react-i18next';
 import SingleProduct from "../components/SingleProduct";
 import TextButton from "../components/TextButton";
 import { Link } from "react-router-dom";
 
-
 const Products = () => {
+  const { t } = useTranslation(); // Acceder a las funciones de traducción
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [filterProducts, setFilterProducts] = useState([]);
@@ -72,48 +73,48 @@ const Products = () => {
       </p>
     );
 
-  return (
-    <div className="container mx-auto pb-20">
-      <h2 className="text-center text-3xl py-10">Todos los productos</h2>
-      <div className="flex justify-between gap-10">
-        <div className="w-[20%] bg-gray-50 flex flex-col gap-3 px-3 pt-2">
-          <h3
-            className="select-none cursor-pointer flex justify-between"
-            onClick={() => {
-              setFilterProducts(products);
-              setCatPath("all categories");
-            }}
-          >
-            <span className="font-semibold">Todas las categorias</span>
-            <span>{`(${products.length})`}</span>
-          </h3>
-          {categories.map((cat) => (
-            <p
-              ref={para}
-              className="select-none cursor-pointer capitalize font-semibold"
-              key={cat.id}
-              onClick={() => changeCategory(cat)}
+    return (
+      <div className="container mx-auto pb-20">
+        <h2 className="text-center text-3xl py-10">{t('products2.allProducts')}</h2>
+        <div className="flex justify-between gap-10">
+          <div className="w-[20%] bg-gray-50 flex flex-col gap-3 px-3 pt-2">
+            <h3
+              className="select-none cursor-pointer flex justify-between"
+              onClick={() => {
+                setFilterProducts(products);
+                setCatPath(t('products2.allCategories'));
+              }}
             >
-              <span>{cat.name}</span>
+              <span className="font-semibold">{t('products2.allCategories')}</span>
+              <span>{`(${products.length})`}</span>
+            </h3>
+            {categories.map((cat) => (
+              <p
+                ref={para}
+                className="select-none cursor-pointer capitalize font-semibold"
+                key={cat.id}
+                onClick={() => changeCategory(cat)}
+              >
+                <span>{cat.name}</span>
+              </p>
+            ))}
+          </div>
+          <div>
+            <p className="text-gray-500 pb-4">
+              {<Link to="/">{t('navigation.home')} </Link>}/
+              <span className="text-sky-400 px-1">{catPath}</span>
             </p>
-          ))}
-        </div>
-        <div>
-          <p className="text-gray-500 pb-4">
-            {<Link to="/">Home </Link>}/
-            <span className="text-sky-400 px-1">{catPath}</span>
-          </p>
-          <TextButton style={{button:"round-button",text:"right"}} val={{icon:"+", text:"Añadir producto"}}>+</TextButton>
-          <div className="grid grid-cols-3 gap-10 ">
-            {filterProducts &&
-              filterProducts.map((product) => (
-                <SingleProduct key={product.id} product={product} />
-              ))}
+            <TextButton style={{button:"round-button",text:"right"}} val={{icon:"+", text:t('products.addProduct')}}>+</TextButton>
+            <div className="grid grid-cols-3 gap-10 ">
+              {filterProducts &&
+                filterProducts.map((product) => (
+                  <SingleProduct key={product.id} product={product} />
+                ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
-
-export default Products;
+    );
+  };
+  
+  export default Products;

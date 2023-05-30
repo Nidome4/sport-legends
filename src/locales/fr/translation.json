@@ -1,0 +1,84 @@
+{
+    "slider": {
+      "slide1": {
+        "headline": "Conceptions Originales",
+        "body": "Démarquez-vous avec des conceptions originales : uniques, créatives et incomparables.",
+        "cta": "Acheter maintenant"
+      },
+      "slide2": {
+        "headline": "Variété flexible pour toute occasion",
+        "body": "Trouvez une variété flexible pour toutes les occasions : adaptez votre style à chaque moment avec notre large sélection d'options.",
+        "cta": "Acheter maintenant"
+      },
+      "slide3": {
+        "headline": "Confort et adaptabilité pour vos pieds",
+        "body": "Découvrez le confort et l'adaptabilité pour vos pieds : trouvez l'équilibre parfait entre confort et style avec notre gamme de chaussures conçues pour répondre à vos besoins.",
+        "cta": "Acheter maintenant"
+      },
+      "slide4": {
+        "headline": "Fraîcheur et filtration de l'air",
+        "body": "Profitez de la fraîcheur et de la filtration de l'air : maintenez vos espaces frais et purifiés avec notre technologie de pointe, garantissant un environnement sain et revitalisant.",
+        "cta": "Acheter maintenant"
+      },
+      "slide5": {
+        "headline": "Confort à tout moment",
+        "body": "Expérimentez le confort à tout moment : notre gamme de produits vous offre un confort sans compromis, pour vous sentir bien à tout moment et dans toutes les situations.",
+        "cta": "Acheter maintenant"
+      }
+    },
+    "navbar": {
+      "home": "Accueil",
+      "about": "À propos",
+      "products": "Produits"
+    },
+    "languages": {
+      "spanish": "Espagnol",
+      "english": "Anglais",
+      "german": "Allemand",
+      "french": "Français"
+    },
+    "whyme": {
+      "Porque escogernos a nosotros?": "Pourquoi nous choisir ?",
+      "Envio internacional": "Livraison internationale",
+      "Ofrecemos envíos a todo el mundo para que nuestros productos sean accesibles a clientes de todo el mundo.": "Nous proposons des livraisons dans le monde entier pour que nos produits soient accessibles aux clients du monde entier.",
+      "La mejor calidad": "La meilleure qualité",
+      "Creemos en proporcionar a nuestros clientes solo productos de la mejor calidad.": "Nous croyons en la fourniture à nos clients uniquement de produits de la meilleure qualité.",
+      "Las mejores ofertas": "Les meilleures offres",
+      "Nos enorgullecemos de ofrecer las mejores ofertas y descuentos a nuestros clientes.": "Nous sommes fiers de proposer les meilleures offres et réductions à nos clients.",
+      "Pagos seguros": "Paiements sécurisés",
+      "Ofrecemos una gama de opciones de pago seguro para garantizar que sus transacciones sean seguras.": "Nous proposons une gamme d'options de paiement sécurisé pour garantir la sécurité de vos transactions."
+    },
+    "about": {
+      "Sobre Nosotros": "À propos de nous",
+      "Who we are?": "Qui sommes-nous ?",
+      "Description": "Nous sommes une équipe de personnes passionnées engagées à fournir des produits de haute qualité et un service client exceptionnel. Notre mission est de rendre les vêtements accessibles à tous, peu importe où ils se trouvent dans le monde. Achetez avec nous et faites l'expérience de la différence de travailler avec une équipe dévouée et axée sur le client."
+    },
+    "ourTeam": {
+      "Nuestro Equipo": "Notre équipe",
+      "exp": "Nous sommes composés de personnes expérimentées passionnées par la technologie et engagées envers la satisfaction du client.",
+      "CEO 1": "PDG 1",
+      "CEO 2": "PDG 2",
+      "CEO 3": "PDG 3"
+    },
+    "products": {
+      "productName": "{{name}}",
+      "brand": "Marque",
+      "price": "Prix",
+      "moreInfo": "Plus d'informations",
+      "addToCart": "Ajouter au panier",
+      "currency": "COP"
+    },
+    "products2": {
+      "allProducts": "Tous les produits",
+      "allCategories": "Toutes les catégories",
+      "addProduct": "Ajouter un produit"
+    },
+    "navigation": {
+      "home": "Accueil"
+    },
+    "featureProducts": {
+        "1": "Produits populaires"
+    }
+  }
+  
+  

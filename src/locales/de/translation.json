@@ -1,17 +1,31 @@
 {
-    "slider": {
-      "Diseños Originales": "Originale Designs",
-      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Zeigen Sie sich mit originellen Designs: Einzigartig, kreativ und unvergleichlich.",
-      "Comprar Ahora": "Jetzt kaufen",
-      "Variedad Flexible para cualquier ocasion": "Flexible Vielfalt für jeden Anlass",
-      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Finden Sie die flexible Vielfalt für jeden Anlass: Passen Sie Ihren Stil mit unserer großen Auswahl an Optionen an.",
-      "Comodidad y adaptiblidad para los pies": "Komfort und Anpassungsfähigkeit für Ihre Füße",
-      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Entdecken Sie Komfort und Anpassungsfähigkeit für Ihre Füße: Finden Sie die perfekte Balance zwischen Komfort und Stil mit unserer Schuhkollektion, die Ihren Bedürfnissen gerecht wird.",
-      "Frescura y filtracion de aire": "Frische und Luftfiltration",
-      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Genießen Sie Frische und Luftfiltration: Halten Sie Ihre Räume mit unserer modernen Technologie frisch und gereinigt, die für eine gesunde und revitalisierende Umgebung sorgt.",
-      "Comodidad en cualquier momento": "Komfort zu jeder Zeit",
-      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Erleben Sie Komfort zu jeder Zeit: Unsere Produktpalette bietet Ihnen uneingeschränkten Komfort, damit Sie sich jederzeit und in jeder Situation wohlfühlen können."
+  "slider": {
+    "slide1": {
+      "headline": "Originelle Designs",
+      "body": "Heben Sie sich durch originelle Designs hervor: Einzigartig, kreativ und unvergleichlich.",
+      "cta": "kaufe jetzt"
     },
+    "slide2": {
+      "headline": "Flexible Vielfalt für jeden Anlass",
+      "body": "Finden Sie die flexible Vielfalt für jeden Anlass: Passen Sie Ihren Stil mit unserer großen Auswahl an Optionen an jeden Moment an.",
+      "cta": "kaufe jetzt"
+    },
+    "slide3": {
+        "headline": "Komfort und Anpassungsfähigkeit für die Kuchen",
+        "body": "Entdecken Sie den Komfort und die Anpassungsfähigkeit Ihrer Füße: Finden Sie die perfekte Balance zwischen Komfort und Stil mit unserer Schuhkollektion, die speziell auf Ihre Bedürfnisse zugeschnitten ist.",
+        "cta": "kaufe jetzt"
+    },
+    "slide4": {
+        "headline": "Frische Luft und Luftfilterung",
+        "body": "Genießen Sie Frische und Luftfiltration: Halten Sie Ihre Räume mit unserer hochmodernen Technologie frisch und rein, die eine gesunde und revitalisierende Umgebung garantiert.",
+        "cta": "kaufe jetzt"
+    },
+    "slide5": {
+        "headline": "Komfort zu jeder Zeit",
+        "body": "Erleben Sie Komfort zu jeder Zeit: Unsere Produktpalette bietet Ihnen Komfort ohne Kompromisse, sodass Sie sich jederzeit und in jeder Situation wohl fühlen.",
+        "cta": "kaufe jetzt"
+    }
+  },
     "navbar": {
         "home": "Start",
         "about": "Über uns",
@@ -20,7 +34,8 @@
       "languages": {
         "spanish": "Spanisch",
         "english": "Englisch",
-        "german": "Deutsch"
+        "german": "Deutsch",
+        "french": "Französisch"
     },
     "whyme": {
       "Porque escogernos a nosotros?": "Warum uns wählen?",
@@ -44,6 +59,25 @@
         "CEO 1": "CEO 1",
         "CEO 2": "CEO 2",
         "CEO 3": "CEO 3"
-    }
+    },
+    "products": {
+      "productName": "{{name}}",
+      "brand": "Marke",
+      "price": "Preis",
+      "moreInfo": "Informationen",
+      "addToCart": "Warenkorb legen",
+      "currency": "€"
+  },
+  "products2": {
+    "allProducts": "Alle Produkte",
+    "allCategories": "Alle Kategorien",
+    "addProduct": "Produkt hinzufügen"
+  },
+  "navigation": {
+    "home": "Start"
+},
+"featureProducts": {
+  "1": "Ausgewählte Produkte"
+}
   }
   

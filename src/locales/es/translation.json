@@ -1,17 +1,31 @@
 {
     "slider": {
-      "Diseños Originales": "Diseños Originales",
-      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.",
-      "Comprar Ahora": "Comprar Ahora",
-      "Variedad Flexible para cualquier ocasion": "Variedad Flexible para cualquier ocasión",
-      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.",
-      "Comodidad y adaptiblidad para los pies": "Comodidad y adaptibilidad para los pies",
-      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.",
-      "Frescura y filtracion de aire": "Frescura y filtración de aire",
-      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.",
-      "Comodidad en cualquier momento": "Comodidad en cualquier momento",
-      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación."
-    },
+        "slide1": {
+          "headline": "Diseños Originales",
+          "body": "Destaca con diseños originales: únicos, creativos e incomparables.",
+          "cta": "Comprar Ahora"
+        },
+        "slide2": {
+          "headline": "Variedad flexible para cualquier ocasión",
+          "body": "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.",
+          "cta": "Comprar Ahora"
+        },
+        "slide3": {
+            "headline": "Comodidad y adaptiblidad para los pies",
+            "body": "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.",
+            "cta": "Comprar Ahora"
+        },
+        "slide4": {
+            "headline": "Frescura y filtracion de aire",
+            "body": "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.",
+            "cta": "Comprar Ahora"
+        },
+        "slide5": {
+            "headline": "Comodidad en cualquier momento",
+            "body": "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.",
+            "cta": "Comprar Ahora"
+        }
+      },
     "navbar": {
         "home": "Inicio",
         "about": "Sobre Nosotros",
@@ -20,7 +34,8 @@
       "languages": {
         "spanish": "Español",
         "english": "Ingles",
-        "german": "Aleman"
+        "german": "Aleman",
+        "french": "Frances"
     },
     "whyme": {
       "Porque escogernos a nosotros?": "¿Por qué elegirnos?",
@@ -44,6 +59,25 @@
         "CEO 1": "CEO 1",
         "CEO 2": "CEO 2",
         "CEO 3": "CEO 3"
+    },
+    "products": {
+        "productName": "{{name}}",
+        "brand": "Marca",
+        "price": "Precio",
+        "moreInfo": "Mas informacion",
+        "addToCart": "Añadir al carrito",
+        "currency": "COP"
+    },
+    "products2": {
+        "allProducts": "Todos los productos",
+        "allCategories": "Todas las categorías",
+        "addProduct": "Añadir producto"
+      },
+      "navigation": {
+        "home": "Inicio"
+    },
+    "featureProducts": {
+        "1": "Productos destacados"
     }
   }
   

@@ -5,6 +5,7 @@ import { initReactI18next } from 'react-i18next';
 import translationEN from './locales/en/translation.json';
 import translationES from './locales/es/translation.json';
 import translationDE from './locales/de/translation.json';
+import translationFR from './locales/fr/translation.json';
 
 // Configurar el objeto de opciones de i18next
 const options = {
@@ -27,6 +28,9 @@ const options = {
     de: {
       translation: translationDE,
     },
+    fr: {
+      translation: translationFR,
+    },
   },
   
   // Inicializar react-i18next
@@ -41,4 +45,3 @@ i18n
   .init(options);
 
 export default i18n;
-

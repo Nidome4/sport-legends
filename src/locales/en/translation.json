@@ -1,17 +1,31 @@
 {
     "slider": {
-      "Diseños Originales": "Original Designs",
-      "Destaca con Diseños Originales: Únicos, Creativos e Inigualables.": "Stand out with Original Designs: Unique, Creative, and Unmatched.",
-      "Comprar Ahora": "Buy Now",
-      "Variedad Flexible para cualquier ocasion": "Flexible Variety for any Occasion",
-      "Encuentra la Variedad Flexible para Cualquier Ocasión: Adapta tu estilo a cada momento con nuestra amplia selección de opciones.": "Find the Flexible Variety for Any Occasion: Adapt your style to every moment with our wide selection of options.",
-      "Comodidad y adaptiblidad para los pies": "Comfort and Adaptability for Your Feet",
-      "Descubre la Comodidad y Adaptabilidad para tus Pies: Encuentra el equilibrio perfecto entre confort y estilo con nuestra línea de calzado diseñada para satisfacer tus necesidades.": "Discover Comfort and Adaptability for Your Feet: Find the perfect balance between comfort and style with our footwear line designed to meet your needs.",
-      "Frescura y filtracion de aire": "Freshness and Air Filtration",
-      "Disfruta de la Frescura y Filtración de Aire: Mantén tus espacios frescos y purificados con nuestra tecnología de última generación, que garantiza un ambiente saludable y revitalizante.": "Enjoy Freshness and Air Filtration: Keep your spaces cool and purified with our state-of-the-art technology that ensures a healthy and revitalizing environment.",
-      "Comodidad en cualquier momento": "Comfort at Any Time",
-      "Experimenta la Comodidad en Cualquier Momento: Nuestra gama de productos te brinda confort sin compromisos, para que te sientas bien en todo momento y en cualquier situación.": "Experience Comfort at Any Time: Our range of products provides you with uncompromising comfort, so you can feel good at all times and in any situation."
-    },
+        "slide1": {
+          "headline": "Original Designs",
+          "body": "Stand out with Original Designs: Unique, Creative, and Unparalleled.",
+          "cta": "Buy Now"
+        },
+        "slide2": {
+          "headline": "Flexible Variety for any Occasion",
+          "body": "Find the Flexible Variety for Any Occasion: Adapt your style to every moment with our wide selection of options.",
+          "cta": "Buy Now"
+        },
+        "slide3": {
+            "headline": "Comfort and adaptability for the feet",
+            "body": "Discover the Comfort and Adaptability for your Feet: Find the perfect balance between comfort and style with our line of footwear designed to meet your needs.",
+            "cta": "Buy Now"
+        },
+        "slide4": {
+            "headline": "Freshness and air filtration",
+            "body": "Enjoy Freshness and Air Filtration: Keep your spaces fresh and purified with our state-of-the-art technology, which guarantees a healthy and revitalizing environment.",
+            "cta": "Buy Now"
+        },
+        "slide5": {
+            "headline": "comfort at any time",
+            "body": "Experience Comfort at Any Time: Our range of products gives you comfort without compromise, so you feel good at all times and in any situation.",
+            "cta": "Buy Now"
+        }
+      },
     "navbar": {
         "home": "Home",
         "about": "About",
@@ -20,7 +34,8 @@
       "languages": {
         "spanish": "Spanish",
         "english": "English",
-        "german": "German"
+        "german": "German",
+        "french": "French"
     },
     "whyme": {
       "Porque escogernos a nosotros?": "Why Choose Us?",
@@ -44,6 +59,26 @@
         "CEO 1": "CEO 1",
         "CEO 2": "CEO 2",
         "CEO 3": "CEO 3"
+    },
+    "products": {
+        "productName": "{{name}}",
+        "brand": "Brand",
+        "price": "Price",
+        "moreInfo": "More Information",
+        "addToCart": "Add to Cart",
+        "currency": "US"
+    },
+    "products2": {
+        "allProducts": "All Products",
+        "allCategories": "All Categories",
+        "addProduct": "Add Product"
+      },
+      "navigation": {
+        "home": "Home"
+    },
+    "featureProducts": {
+        "1": "Featured Products"
     }
-  }
+}
+
   

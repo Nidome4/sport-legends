@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="shadow-lg backdrop-blur-lg py-5 text-gray-900 bg-gray-50">
+    <div className="shadow-lg backdrop-blur-lg py-5 text-gray-900 bg-gray-50" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 999 }}>
       <nav className="flex items-center container mx-auto justify-center">
         <div style={{ left: '-5%', position: 'relative' }}>
           <img src={require('./assets/images/logo.png')} alt="Logo" className="w-20 h-20" />
@@ -40,6 +40,7 @@ const Navbar = () => {
               <option value="es">{t('languages.spanish')}</option>
               <option value="en">{t('languages.english')}</option>
               <option value="de">{t('languages.german')}</option>
+              <option value="fr">{t('languages.french')}</option>
             </select>
           </div>
         </div>
